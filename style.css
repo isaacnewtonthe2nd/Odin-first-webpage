@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 70vw;
+  background-color: #1f2937;
+}
+
+.header {
+  color: #f9faf8;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.container-one img {
+  width: 300px;
+}
