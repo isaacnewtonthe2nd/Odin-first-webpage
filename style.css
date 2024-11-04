@@ -1,26 +1,76 @@
 * {
   box-sizing: border-box;
+  margin: 0px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
-  width: 70vw;
-  background-color: #1f2937;
+  background-color: white;
+  color: black;
+  font-family: Roboto;
 }
 
 .header {
   color: #f9faf8;
+  background-color: #1f2937;
+
 }
 
 .logo {
   max-width: 200px;
 }
 
+.container-one {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-secondary-text, .header li {
+  font-size: 18px;
+}
+
 .container-one img {
   width: 300px;
+}
+
+.container-two {
+
+}
+
+.cont-two-header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
 }
 
 .container-two img {
   width: 200px;
   height: 200px;
   object-fit: cover;
+}
+
+.container-three {
+  background-color: #e5e7eb;
+
+}
+
+.cont-three-quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.container-four {
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
