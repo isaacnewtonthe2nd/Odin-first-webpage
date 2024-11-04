@@ -13,6 +13,21 @@ body {
   flex-direction: column;
 }
 
+button {
+  font-size: 16px;
+  max-width: 100px;
+  padding: 5px 15px;
+  font-weight: bold;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 4px;
+}
+
+img {
+  border-radius: 10px;
+  object-fit: cover;
+}
+
 .header {
   color: #f9faf8;
   background-color: #1f2937;
@@ -51,14 +66,17 @@ body {
   color: #f9faf8;
   padding: 70px 70px;
   display: flex;
+  justify-content: space-between;
   gap: 40px;
+  flex-wrap: wrap;
 }
 
 .cont-one-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 15px;
+  gap: 20px;
+  max-width: 600px;
 }
 
 .hero-main-text {
@@ -70,36 +88,41 @@ body {
   font-size: 18px;
 }
 
-.container-one button {
-  font-size: 16px;
-  max-width: 100px;
-  padding: 5px 15px;
-  font-weight: bold;
-  background-color: #3882f6;
-  border: none;
-  border-radius: 4px;
-}
-
 .container-one img {
-  max-width: 350px;
-  border-radius: 10px;
-  object-fit: contain;
+  max-width: 500px;
 }
 
 .container-two {
-
-}
+  text-align: center;
+  object-fit: cover;
+} 
 
 .cont-two-header {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  padding: 30px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card {
+  width: 250px;
 }
 
 .container-two img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
+  width: 250px;
+  height: 250px;
+}
+
+.card p {
+  padding-top: 10px;
 }
 
 .container-three {
